@@ -1,0 +1,71 @@
+body{
+	background-color: silver;
+	padding: 5px;
+	font-family: Verdana;
+	font-size: 10pt;
+	text-align: justify;
+}
+
+#khungtrang{
+	width:800px;
+	background-color:white;
+	margin:auto;
+}
+
+header{
+	height:90px;
+}
+
+aside{
+	width:200px;
+	float:left;
+}
+
+section{
+	width:579px;
+	padding:10px;
+	float:left;
+}
+aside div{ 
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid silver;
+	border-radius: 5px;
+	background: url(../images/bg.jpg) repeat-x;
+	width: 178px;
+	margin: 5px;
+	padding: 5px;
+}
+
+aside a{
+	font-weight: bold;
+	color: maroon;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	
+}
+
+aside a:hover{
+	color:white;
+	background-color:maroon;
+}	
+
+section .tieude{
+	font-size: bold;
+	font-size: 12pt;
+	color: maroon;
+	border: 1px dotted maroon;
+	border-style: dotted none none ;
+	
+}
+
+section a{
+	font-weight: bold;
+	color: blue;
+}
+
+section p.tieude{
+	font-weight: bold;
+}
